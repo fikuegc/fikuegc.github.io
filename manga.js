@@ -1,5 +1,5 @@
 var favicon_images = [
-                    './img/ooh-face.png',
+                    './img/ooh-icon.png',
                     './img/ooh-wink.png',
                 ],
     image_counter = 0; // To keep track of the current image
