@@ -12,7 +12,7 @@ setInterval(function() {
         document.querySelector("link[rel='shortcut icon']").remove();
         
     // add new favicon image
-    document.querySelector("head").insertAdjacentHTML('beforeend', '<link rel="icon" href="' + favicon_images[image_counter] + '" type="image/gif">');
+    document.querySelector("head").insertAdjacentHTML('beforeend', '<link rel="icon" href="' + favicon_images[image_counter] + '" type="image/png">');
     
     // If last image then goto first image
     // Else go to next image    
